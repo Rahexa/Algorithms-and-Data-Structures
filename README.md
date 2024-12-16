@@ -47,8 +47,10 @@ The 0/1 Knapsack problem is particularly useful in scenarios where:
 - **Memory Allocation**: In situations where computer memory or disk space is limited, and we must decide which programs or files to keep to maximize usage.
 - **Project Selection**: In project management, given limited resources (e.g., time or budget), selecting the most profitable set of projects to work on.
 - Input:
-4 7
-10 20 30 40
-1 2 3 8\n
-Output:
-50
+# Example usage
+n = 4
+W = 7
+values = [10, 20, 30, 40]
+weights = [1, 2, 3, 8]
+
+print(knapsack(weights, values, W, n))  # Output: 50
