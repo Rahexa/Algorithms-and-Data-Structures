@@ -49,6 +49,6 @@ The 0/1 Knapsack problem is particularly useful in scenarios where:
 - Input:
 4 7
 10 20 30 40
-1 2 3 8
+1 2 3 8\n
 Output:
 50
